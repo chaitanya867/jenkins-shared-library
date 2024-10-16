@@ -1,4 +1,4 @@
-@Library('your-shared-library-name') _ // This line is only valid in a Groovy Jenkinsfile.
+@Library('terraform-shared-library') _ // This line is only valid in a Groovy Jenkinsfile.
 
 pipeline {
     agent any
